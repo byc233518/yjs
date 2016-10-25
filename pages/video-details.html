@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>匀加速</title>
+		<link rel="stylesheet" href="../css/amazeui.min.css" />
+		<link rel="stylesheet" href="../css/style.css" />
+
+		<script src="../js/jquery.js"></script>
+		<script src="../js/amazeui.min.js"></script>
+		<script type="../js/main.js"></script>
+	</head>
+
+	<body>
+		<header data-am-widget="header" class="am-header am-header-default">
+			<div class="am-header-left am-header-nav">
+				<a onclick="window.history.back()" class="">
+					<img class="am-header-icon-custom" src="data:image/svg+xml;charset&#x3D;utf-8,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 12 20&quot;&gt;&lt;path d&#x3D;&quot;M10,0l2,2l-8,8l8,8l-2,2L0,10L10,0z&quot; fill&#x3D;&quot;%23fff&quot;/&gt;&lt;/svg&gt;" alt="" />
+				</a>
+			</div>
+
+			<h1 class="am-header-title">
+	          	视频展示
+	      	</h1>
+
+			<div class="am-header-right am-header-nav">
+				<a href="#right-link" class="">
+					<img class="am-header-icon-custom" src="data:image/svg+xml;charset&#x3D;utf-8,&lt;svg xmlns&#x3D;&quot;http://www.w3.org/2000/svg&quot; viewBox&#x3D;&quot;0 0 42 26&quot; fill&#x3D;&quot;%23fff&quot;&gt;&lt;rect width&#x3D;&quot;4&quot; height&#x3D;&quot;4&quot;/&gt;&lt;rect x&#x3D;&quot;8&quot; y&#x3D;&quot;1&quot; width&#x3D;&quot;34&quot; height&#x3D;&quot;2&quot;/&gt;&lt;rect y&#x3D;&quot;11&quot; width&#x3D;&quot;4&quot; height&#x3D;&quot;4&quot;/&gt;&lt;rect x&#x3D;&quot;8&quot; y&#x3D;&quot;12&quot; width&#x3D;&quot;34&quot; height&#x3D;&quot;2&quot;/&gt;&lt;rect y&#x3D;&quot;22&quot; width&#x3D;&quot;4&quot; height&#x3D;&quot;4&quot;/&gt;&lt;rect x&#x3D;&quot;8&quot; y&#x3D;&quot;23&quot; width&#x3D;&quot;34&quot; height&#x3D;&quot;2&quot;/&gt;&lt;/svg&gt;" alt="" />
+				</a>
+			</div>
+		</header>
+
+		<div>
+			<video width="100%" height="" autoplay controls>
+				<source src="http://www.baiyuchuan.com/demo/video.mp4" type="video/mp4"></source>
+				<source src="myvideo.ogv" type="video/ogg"></source>
+				<source src="myvideo.webm" type="video/webm"></source>
+				<object width="" height="" type="application/x-shockwave-flash" data="myvideo.swf">
+					<param name="movie" value="myvideo.swf" />
+					<param name="flashvars" value="autostart=true&amp;file=myvideo.swf" />
+				</object>
+				当前浏览器不支持 video直接播放，点击这里下载视频： <a href="myvideo.webm">下载视频</a>
+			</video>
+        	<!--<iframe height="600px" width="100%" src="http://www.tudou.com/programs/view/html5embed.action?type=0&code=fx6TGDmthEY&lcode=&resourceId=413419223_06_05_99" frameborder="0"  allowfullscreen="true"></iframe>-->
+
+		</div>
+
+		<div data-am-widget="navbar" class="am-navbar am-cf am-navbar-default " id="">
+			<ul class="am-navbar-nav am-cf am-avg-sm-4">
+				<li>
+					<a href="../index.html" class="">
+						<span class="am-icon-home "></span>
+						<span class="am-navbar-label">首页</span>
+					</a>
+				</li>
+				<li>
+					<a href="news.html" class="">
+						<span class="am-icon-rss"></span>
+						<span class="am-navbar-label">新闻</span>
+					</a>
+				</li>
+				<li>
+					<a href="video.html" class="">
+						<span class="am-icon-video-camera"></span>
+						<span class="am-navbar-label">视频</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="">
+						<span class="am-icon-user"></span>
+						<span class="am-navbar-label">主页</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,13 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+.am-slider-default .am-control-nav {
+    display: none;
+}
+.text-center{
+	text-align: center;
+}
+.am-thumbnail{
+	margin-bottom: .5rem;
+}
